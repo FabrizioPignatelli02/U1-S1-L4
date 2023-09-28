@@ -6,9 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smartphone Page</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/font-awesome.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
-  <body></body>
+  <body>
+    <header>
+      <div>
+        <img id="epicode" src="./assets/img/logo.svg" alt="logo Epicode School" />
+      </div>
+      <div>
+        <h2>EPICODE - IL BLOG DEI DEVELOPERS</h2>
+      </div>
+      <div>
+        <a href="#"><i class="fas fa-angle-double-right"></i>HOME<i class="fas fa-angle-double-left"></i></a><br />
+        <a href="#"><i class="fas fa-angle-double-right"></i>ARTICOLI<i class="fas fa-angle-double-left"></i></a><br />
+        <a href="#"><i class="fas fa-angle-double-right"></i>LAVORA CON NOI<i class="fas fa-angle-double-left"></i></a>
+      </div>
+    </header>
+    <main>
+      <div>
+        <h2>Come creare un template per i post</h2>
+      </div>
+      <div>
+        <p class="info">
+          <i class="fas fa-edit" style="color: #c2c7c3"></i> di Mario Rossi -
+          <i class="fas fa-clock" style="color: #c2c7c3"></i> pubblicato il 25-10-2020
+        </p>
+      </div>
+      <div class="contenuto">
+        <p>
+          La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <span>parti comuni</span> da
+          applicare a tutte le pagine
+        </p>
+        <p>Le varie aree saranno quindi suddivise in:</p>
+        <ul>
+          <li>Contenuti di intestazione del tag <button>&lt;header&gt;</button></li>
+          <li>Contenuti centrali variabili del tag <button>&lt;main&gt;</button> (corpo principale)</li>
+          <li>Contenuti di fine pagina comuni, da inserire nel tag <button>&lt;footer&gt;</button></li>
+        </ul>
+        <h3>Formattazione del codice</h3>
+        <p>
+          il testo dell'aticolo dovrà essere formattato per identificare tutte le parti da
+          <span>selezionare con i CSS.</span> Perciò i passi saranno:
+        </p>
+        <ol>
+          <li>Progettare su carta il markup finale, assegnando ad ogni specifico test il tag appropriato</li>
+          <li>Scrivere l'HTML dei tag esterni a quelli interni e dall'alto verso il basso</li>
+          <li>Applicare gli stili CSS</li>
+        </ol>
+        <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
+        <div>
+          <table>
+            <thead>
+              <caption>
+                Diffusione dei CSS
+              </caption>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
