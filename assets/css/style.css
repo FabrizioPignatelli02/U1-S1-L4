@@ -80,6 +80,7 @@ main li{
     padding-right: 30px;
 }
 
+
 .info{
     color: #c2c7c3;
 }
@@ -111,6 +112,17 @@ ol{
     padding-left: 60px;
     padding-top: 20px;
 }
+
+main h4{
+    font-size: 20px;
+    padding: 30px;
+}
+
+main a{
+    color: #05AACD;
+    font-weight: bold;
+}
+
 /* TABELLE */
 
 
@@ -128,29 +140,140 @@ table caption{
 
 
 
-table,
-th,
-td {
-  border: 1px solid black;
-}
-
 table {
-  width: 400px;
+  width: 450px;
   margin: 0 auto;
   display: table;
   border-spacing: 0;
 }
 
+thead th{
+    border: 1px solid white;
+}
+
+
+thead tr{
+    line-height: 60px;
+    background-color: #3366CC;
+    color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: #EEEEEE
+}
+
+tbody tr:nth-last-child(1){
+    border-bottom: 2px solid #3366CC;
+}
 
 th,
 td {
-  padding: 5px 10px;
-  border-top-width: 0;
-  border-left-width: 0;
+  padding: 20px;
+}
+
+
+.frame{
+    text-align: center;
+}
+
+.frame iframe{
+    border: 2px solid black;
+    border-radius: 20px 20px 20px 20px;
 }
 
 /* FORM */
 
+
+.form_novità{
+    background-color: #DDDDDE;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.form_novità h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form_novità input{
+    margin-left: 30px;
+    border: 0;
+    width: 250px; 
+    height: 40px;
+    border-bottom: 1px dashed  black;
+}
+
+
+.form_novità button{
+    vertical-align: middle;
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    color: white;
+    background-color: #3366CC;
+    border: 0;
+    border-radius: 0px;
+    font-size: 20px;
+}
+
 /* ELEMENTI NELL' ASIDE */
 
+
+.correlati{
+    background-color: #DDDDDE;
+    margin: 20px;
+    padding: 30px;
+    line-height: 30px;
+    border: 2px solid #CCCCCC;
+}
+
+.correlati p{
+    padding: 0;
+}
+
+.correlati a{
+    font-size: 20px;
+}
+
+.correlati .data{
+    text-align: right;
+    margin-top: 30px;
+}
+
+.articoli_correlati h2{
+    text-align: center;
+    padding-left: 0;
+}
+
 /* FOOTER */
+
+footer{
+    width: 500px;
+    margin-inline: auto;
+    background-image: linear-gradient(0deg, rgba(0,46,55,1) 35%, rgba(0,82,98,1) 100%);
+    box-shadow: 0 4px 10px black;
+}
+
+footer div{
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+footer a{
+    color: #FF00FE;
+}
+
+
+footer h3{
+    padding: 20px;
+}
+
+footer > div > p:nth-last-child(1){
+    padding-bottom: 30px;
+}
